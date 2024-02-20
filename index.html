@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portofolio</title>
+  <link href="style.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Rubik:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/bf5f902c48.js" crossorigin="anonymous"></script>
+</head>
+
+<body
+  class="bg-[#ca1363]">
+  <div class="mx-auto lg:max-w-7xl">
+    <!--ini bagian navbar -->
+    <div
+      class="flex z-10 lg:w-[100%] bg-[#FE1A7E] lg:max-w-7xl fixed w-full items-center border-b justify-between border-pink-700 p-8 h-12">
+      <h4
+        class="font-custom text-xl font-semibold text-white ">
+        Manisa
+      </h4>
+      <div class="lg:hidden md:hidden">
+        <i class="transition-transform transform hover:scale-110  fa-solid fa-bars fa-xl text-white"></i>
+      </div>
+      <div class="close hidden absolute right-7 z-20 md:hidden">
+        <i class="transition-transform transform hover:scale-110   fa-solid fa-xmark fa-xl text-pink-200"></i>
+      </div>
+
+      <div
+        class="navbar hidden md:block absolute p-16 right-0 pb-[700px] xs:pb-96 mt-[700px] xs:mt-96 md:p-5 pt-80 md:pb-0 md:pt-0 md:mt-0 md:bg-transparent bg-[rgba(108,3,43,0.57)] backdrop-blur-[5.1px] md:backdrop-blur-none">
+        <ul class="  md:flex gap-4  xs:w-1/2 xs:mr-0 list-none font-custom text-white font-semibold ">
+          <li class="transition-transform transform hover:scale-110 p-5 "><a href="#"
+              class="#">Home</a></li>
+          <li class="transition-transform transform hover:scale-110 p-5 md:pl-0 "><a
+              href="#about" class=" ">About</a></li>
+          <li class="transition-transform transform hover:scale-110 p-5 md:pl-0 "><a
+              href="#project">Project</a></li>
+          <li class="transition-transform transform hover:scale-110 p-5 md:pl-0  "><a
+              href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ini bagian landing page -->
+    <div
+      class="lg:px-16 sm:px-7 px-5 grid 2sm:grid-cols-2 pb-2 sm:pb-[0.3rem] lg:pb-[1.8rem] 2sm:pb-16 bg-[#FE1A7E]">
+      <div class="ml-[0.7rem] sm:ml-1 lg:mt-3 lg:ml-[0.2rem] xs:mt-[4rem]">
+        <h3
+          class="text-white font-custom text-2xl md:text-3xl lg:text-4xl mt-24 xs:mt-9 lg:mt-24 xl:mt-24 ">
+          Hello! My name is
+        </h3>
+        <h1
+          class="font-custom mt-3 text-white font-medium text-6xl sm:text-7xl sm:w-[90%] lg:text-8xl xl:text-[6.7rem] md:text-8xl ">
+          Manisa Bachtiar
+        </h1>
+        <button id="btn"
+          class="hover:bg-pink-300 border-2 border-white transition-transform transform hover:scale-110  font-custom font-medium text-white mt-5 rounded-2xl py-2 px-5 ml-1"
+          type="submit">
+          <a href="#about">Who Am I?</a>
+        </button>
+      </div>
+      <img loading="lazy"
+        class="translate-y-[1.3rem] 2sm:translate-x-5 sm:translate-y-[1.4rem] 2sm:translate-y-[4.8rem] lg:translate-y-[3rem] xs:translate-y-[1.4rem] justify-self-end lg:justify-self-end xs:justify-self-center sm:translate-x-1 md:translate-y-20 lg:translate-x-16 self-end 2sm:w-96 sm:w-5/6 xs:w-4/5 md:w-6/7 lg:w-5/6 xl:w-4/5"
+        src="img/u.png" alt="img" />
+    </div>
+    <div class="bg-pink-200  h-32 "></div>
+    <div class=" py-5 scroll-mt-[4rem] bg-[#0E0004]" id="about">
+      <div class="btnSection flex w-full justify-center items-center px-3 text-white font-custom font-bold text-md">
+        <button
+          class="bg-[#FE1A7E] py-3 mx-1 px-1 w-[22rem] rounded-md btnS"
+          data-id="aboutMe">About Me</button>
+        <button
+          class="bg-[#FE1A7E] mx-1 py-3 px-1 w-[22rem]  rounded-md btnS"
+          data-id="skill">My Skills</button>
+        <button
+          class="bg-[#FE1A7E] py-3 px-1 w-[22rem]  rounded-md mx-1 btnS"
+          data-id="content">My Content</button>
+      </div>
+      <div
+        class=" flex article flex-col 2md:flex-row items-center py-9 xl:px-44 lg:px-20 md:px-9 2sm:px-10  px-9"
+        id="aboutMe">
+        <img src="/img/about.jpg" alt="" class="mr-4 rounded-lg  w-1/1 md:w-1/2 2md:w-2/5 xs:w-1/2">
+        <div class="text-white font-custom text-l">
+          <div class="flex flex-col">
+            <h1
+              class="mb-2 text-4xl  mt-5 2md:mt-0 w-auto ml-2 font-custom text-pink-600 md:px-7 2md:px-0">
+              Hello, I am Manisa Bachtiar</h1>
+          </div>
+          <p class="hidden sm:block ml-2 md:px-7 2md:px-0 text-lg">I'm 19 and just finished high
+            school. I started exploring tech in 2021, but really got serious about learning in the last of 2023. I'm
+            really into design, especially UI/UX, and I enjoy working on the frontend. Right now, I'm still learning the
+            ropes of frontend development, but my ultimate goal is to become a UI/UX and full-stack developer. I'm open
+            to both full-time and part-time opportunities, despite being a beginner. I'm eager for any chances to learn
+            and contribute!
+            I have big dreams in the tech field and would love to find an offline community. It would be awesome to make
+            real friends who share the same passion. </p>
+            <p class="sm:hidden ml-2 md:px-7 2md:px-0 text-lg">
+              I’m 19-year-old high school graduate with a keen interest in frontend development and UI/UX design. I began exploring technology in 2021 and have dedicated my time to honing my skills in these areas since the last year of 2023. Although I am still in the early stages of my journey, I am eager to apply my knowledge and contribute to the field. I am currently available for opportunities in this domain.
+            </p>
+        </div>
+      </div>
+
+
+      <div class="hidden article container mx-auto mt-8" id="skill">
+        <div
+          class="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-4 md:grid-cols-3 gap-4 px-10 text-white font-custom  ">
+
+          <!-- Kotak di atas -->
+          <div class="bg-[#424242] px-6 py-6 rounded-md shadow-md">
+            <div class="flex flex-row items-center">
+              <img src="img/brand-html5.png" alt="" class="w-1/4">
+              <p class="text-xl font-semibold  ml-2">HTML</p>
+            </div>
+
+            <p>Figma is a collaborative design tool, enabling teams to create, share, and prototype user interfaces
+              seamlessly.</p>
+          </div>
+
+          <div class="bg-[#FE1A7E] px-6 py-6 rounded-md shadow-md">
+            <div class="flex flex-row items-center">
+              <img src="img/brand-css3.png" alt="" class="w-1/4">
+              <p class="text-xl font-semibold ml-2">CSS</p>
+            </div>
+            <p>CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of HTML
+              documents.</p>
+          </div>
+
+          <div class="bg-[#424242] px-6 py-6 rounded-md shadow-md">
+            <div class="flex flex-row items-center">
+              <img src="img/brand-javascript.png" alt="" class="w-1/4">
+              <p class="text-xl font-semibold ml-2">Javascript</p>
+            </div>
+            <p>JavaScript is a versatile scripting language used to create dynamic and interactive web content and
+              applications.</p>
+          </div>
+          <div class="bg-[#fe1a7e] px-6 py-6 rounded-md shadow-md">
+            <div class="flex flex-row items-center">
+              <img src="img/brand-tailwind.png" alt="" class="w-1/4">
+              <p class="text-xl font-semibold ml-2">Tailwind</p>
+            </div>
+            <p>Tailwind CSS is a utility-first CSS framework that simplifies styling and design by using pre-defined
+              classes.</p>
+          </div>
+
+          <!-- Kotak di bawah -->
+          <div class="bg-[#424242] px-6 py-6 rounded-md shadow-md  md:mt-0">
+            <div class="flex flex-row items-center">
+              <img src="img/brand-vscode.png" alt="" class="w-1/4">
+              <p class="text-xl font-semibold ml-2">VSCode</p>
+            </div>
+            <p>Visual Studio Code (VS Code) is a free, open-source code editor developed by Microsoft for programming
+              tasks.</p>
+          </div>
+
+          <div class="bg-[#fe1a7e] px-6 py-6 rounded-md shadow-md  md:mt-0">
+            <div class="flex flex-row items-center">
+              <img src="img/api.png" alt="" class="w-1/4">
+              <p class="text-xl font-semibold ml-2">API</p>
+            </div>
+            <p>API (Application Programming Interface) is a set of rules enabling software communication for seamless
+              integration.</p>
+          </div>
+
+          <div class="bg-[#424242] px-6 py-6 rounded-md shadow-md  md:mt-0">
+            <div class="flex flex-row items-center">
+              <img src="img/brand-github.png" alt="" class="w-1/4">
+              <p class="text-xl font-semibold ml-2">Github</p>
+            </div>
+            <p>GitHub is a web-based platform for version control, code collaboration, and project management for
+              developers.</p>
+          </div>
+
+          <div class="bg-[#FE1A7E] px-6 py-6 rounded-md shadow-md  md:mt-0">
+            <div class="flex flex-row items-center">
+              <img src="img/brand-figma.png" alt="" class="w-1/4">
+              <p class="text-xl font-semibold ml-2">Figma</p>
+            </div>
+            <p>Figma is a collaborative design tool, enabling teams to create, share, and prototype user interfaces
+              seamlessly.</p>
+          </div>
+        </div>
+      </div>
+      <div class="hidden article" id="content">
+        <div class=" flex text-white h-96 justify-center text-center items-center">
+          <p class="font-custom text-xl items-center
+  ">Will be available soon <span>&#128522;</span></p>
+        </div>
+      </div>
+    </div>
+    <!-- Ini bagian card project -->
+    <div class="py-9 bg-[#0E0004] border-t scroll-mt-[4rem] border-slate-200" id="project">
+      <h1 class="text-white font-custom text-3xl lg:mx-24 mx-7 font-bold">My Projects</h1>
+      <div class="containerCard mx-auto bg-black pb-3 xl:px-9 2md:px-0 lg:px-0"></div>
+  </div>
+    <!-- ini bagian kontak -->
+    <div id="contact"
+      class="scroll-mt-[4rem]  md:flex md:flex-row flex flex-col pt-9 bg-black border-t border-slate-600 pb-10 h-auto">
+      <div
+        class="shadow-lg hover:shadow-md  w-5/6 md:w-2/3 lg:w-1/2 mx-auto p-5 mt-[800] md:ml-7 lg:ml-12 h-[600px] xs:h-[500px]"
+        style="
+            /* From https://css.glass */
+            background: #1f2937;
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            border: 1px solid rgba(85, 84, 84, 0.3);
+          " ;>
+        <h3 class="z-10 text-3xl mt-5 font-custom font-semibold text-pink-500 text-center">
+          Get in touch
+        </h3>
+        
+        <div class="flex xs:flex-row flex-col">
+          <div class="w-[80%] xs:w-[40%] mt-2 ml-5">
+            <form name="submit-to-google-sheet">
+              <h3 class="mt-5 font-custom font-base text-white">
+                Your Name
+              </h3>
+              <input id="name" name="name"
+                class="hover:border-gray-700 outline-none text-white bg-transparent border-b-2 border-pink-400 w-[100%]"
+                type="text" required />
+          </div>
+          <div class=" ml-5 xs:ml-auto w-[80%] xs:w-[40%] mt-2 mr-5">
+            <h3 class="mt-5 font-custom font-base text-white">
+              Your Email
+            </h3>
+            <input id="email" name="email"
+              class="outline-none text-white bg-transparent border-b-2 border-pink-400 w-[100%]" type="email"
+              required />
+          </div>
+        </div>
+        <h3 class="mt-7 ml-5 text-white font-custom">Message</h3>
+        <textarea id="message" name="message"
+          class="p-2 overflow-hidden text-white resize-none appearance-none rounded w-[87%] md:w-[90%] 2md:w-[92%] xs:w-[90%] mt-3 ml-5 bg-slate-700 h-40"
+          cols="30" rows="10" required></textarea>
+        <button
+          class="submit hover:bg-pink-700 bg-pink-500 w-[87%] 2md:w-[92%] md:w-[90%] xs:w-[90%] ml-5 mt-5 h-10 rounded font-custom font-medium"
+          type="submit">Submit</button>
+        <button disabled type="button"
+          class="loading hidden font-custom bg-pink-500 px-[27%] lg:px-[38%] xs:px-[32%] sm:px-[34%] 2sm:px-[37%] md:px-36  ml-5 mt-5 h-10  py-2.5 me-2 text-sm font-medium text-gray-900 t rounded-lg  hover:bg-pink-700  focus:z-10 focus:ring-2 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 items-center">
+          <svg aria-hidden="true" role="status"
+            class="inline w-4 h-4 me-3 text-gray-200 animate-spin dark:text-gray-600" viewBox="0 0 100 101" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z"
+              fill="currentColor" />
+            <path
+              d="M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z"
+              fill="#1C64F2" />
+          </svg>
+          Loading...
+        </button>
+      </div>
+      </form>
+      <div class="bg-black w-4/5 md:w-2/3 items-center mx-auto lg:w-[40%] md:ml-12 lg:ml-20 h-auto lg:h-80">
+        <h3 class="text-3xl font-custom font-semibold text-pink-500 mt-12 md:mt-7">
+          Contact
+        </h3>
+        <h3 class="font-custom text-white mt-3 w-full md:w-[80%] lg:w-[80%]">
+          Please feel free to reach out to me at your convenience. I am
+          available full-time and open to any inquiries or discussions you may
+          have.
+        </h3>
+        <div class="flex">
+          <div class="p-2 mt-5 bg-pink-200 w-[40px] rounded-full h-[40px]">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="24" height="24"
+              viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+              <path d="M3 7l9 6l9 -6" />
+            </svg>
+          </div>
+          <p class="hover:text-pink-400 mt-7 ml-2 font-custom text-pink-200">
+            <a href="mailto:manisaBachtiar17@gmail.com"> manisaBachtiar17@gmail.com</a>
+          </p>
+        </div>
+        <div class="flex">
+          <div class="p-2 mt-5 bg-pink-200 w-[40px] rounded-full h-[40px]">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-dribbble" width="24"
+              height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+              <path d="M9 3.6c5 6 7 10.5 7.5 16.2" />
+              <path d="M6.4 19c3.5 -3.5 6 -6.5 14.5 -6.4" />
+              <path d="M3.1 10.75c5 0 9.814 -.38 15.314 -5" />
+            </svg>
+          </div>
+          <p class="hover:text-pink-400 mt-7 ml-2 font-custom text-pink-200"><a
+              href="https://dribbble.com/manisabachtiar">Dribble</a></p>
+        </div>
+        <div class="flex">
+          <div class="p-2 mt-5 bg-pink-200 w-[40px] rounded-full h-[40px]">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24"
+              height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+              <path d="M8 11l0 5" />
+              <path d="M8 8l0 .01" />
+              <path d="M12 16l0 -5" />
+              <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+            </svg>
+          </div>
+          <p class="hover:text-pink-400 mt-7 ml-2 font-custom text-pink-200"><a
+              href="https://www.linkedin.com/in/manisa-bachtiar-73403b216/">Linkedin</a></p>
+        </div>
+        <div class="flex">
+          <div class="p-2 mt-5 bg-pink-200 w-[40px] rounded-full h-[40px]">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24"
+              height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+            </svg>
+          </div>
+          <p class="hover:text-pink-400 mt-7 ml-2 font-custom text-pink-200"><a
+              href="https://github.com/ManisaBachtiar">Github</a></p>
+        </div>
+        <div class="flex">
+          <div class="p-2 mt-5 bg-pink-200 w-[40px] rounded-full h-[40px]">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24"
+              height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+              <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+              <path d="M16.5 7.5l0 .01" />
+            </svg>
+          </div>
+          <p class="hover:text-pink-400 mt-7 ml-2 font-custom text-pink-200"><a
+              href="https://www.instagram.com/maniss_sabit?igsh=d2MwNW81NDVzNnVx">Instagram</a></p>
+        </div>   
+      </div>
+    </div>
+    <div class="flex bg-zinc-800 h-16 text-sm items-center justify-center  text-white font-custom">
+<p class="">Copyright © 2024 Manisa Bachtiar. All rights reserved.</p>
+    </div>
+    
+  </div>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
