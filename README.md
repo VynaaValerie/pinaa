@@ -1,5 +1,6 @@
 # Welcome to My First Portfolio!
-
+• code by github.com/ManisaBachtiar
+• Recode By VynaaValerie 
 This is a simple web development project showcasing my introduction to Tailwind CSS and vanilla JavaScript. It's my first attempt at using these technologies, and this portfolio serves as an introduction to both myself and the various projects I've worked on.
 
 ## Technologies Used
